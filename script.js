@@ -254,7 +254,7 @@ contactForm.addEventListener('submit', async (e) => {
     try {
         // Using FormSubmit.co service
         // Replace 'YOUR_EMAIL' with actual email in production
-        const response = await fetch('https://formsubmit.co/ajax/info@desinoval.com', {
+        const response = await fetch('https://formsubmit.co/ajax/fatma@desinoval.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -266,7 +266,7 @@ contactForm.addEventListener('submit', async (e) => {
                 phone: data.phone,
                 service: data.service,
                 message: data.message,
-                _subject: 'Desinoval - Yeni İletişim Formu Mesajı',
+                _subject: 'Fatma Aktaş Portfolio - Yeni İletişim Formu Mesajı',
                 _template: 'table'
             })
         });
@@ -279,7 +279,7 @@ contactForm.addEventListener('submit', async (e) => {
         }
     } catch (error) {
         console.error('Form submission error:', error);
-        showMessage('✗ Bir hata oluştu. Lütfen doğrudan e-posta ile iletişime geçin: info@desinoval.com', 'error');
+        showMessage('✗ Bir hata oluştu. Lütfen doğrudan e-posta ile iletişime geçin: fatma@desinoval.com', 'error');
     } finally {
         // Remove loading state
         submitBtn.classList.remove('loading');
@@ -368,10 +368,10 @@ const handleResize = debounce(() => {
 window.addEventListener('resize', handleResize);
 
 // ========== Console Message ==========
-console.log('%c🚀 Desinoval Website', 'color: #f3140c; font-size: 20px; font-weight: bold;');
+console.log('%c🚀 Fatma Aktaş Portfolio', 'color: #f3140c; font-size: 20px; font-weight: bold;');
 console.log('%cDijital Zirve Biletiniz!', 'color: #26262c; font-size: 14px;');
-console.log('%c💻 Developed with ❤️ by Desinoval', 'color: #76767f; font-size: 12px;');
-console.log('%c🌐 https://desinoval.com', 'color: #f3140c; font-size: 12px;');
+console.log('%c💻 Developed with ❤️ by Fatma Aktaş', 'color: #76767f; font-size: 12px;');
+console.log('%c🌐 Powered by Desinoval', 'color: #f3140c; font-size: 12px;');
 
 // ========== Page Load Animation ==========
 window.addEventListener('load', () => {
@@ -394,7 +394,7 @@ document.addEventListener('keydown', (e) => {
         document.body.style.animation = 'rainbow 2s linear infinite';
         setTimeout(() => {
             document.body.style.animation = '';
-            alert('🎉 Desinoval Easter Egg! Dijital dünyada her şey mümkün! 🚀');
+            alert('🎉 Fatma Aktaş Easter Egg! Dijital dünyada her şey mümkün! 🚀');
         }, 2000);
     }
 });

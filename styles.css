@@ -9,6 +9,9 @@
     --primary-color: #f3140c;
     --primary-dark: #c10e08;
     --primary-light: #ff4d47;
+    --blue-color: #1e90ff;
+    --blue-dark: #1565c0;
+    --blue-light: #42a5f5;
     --secondary-color: #26262c;
     --accent-color: #f4f4f5;
     --text-dark: #26262c;
@@ -17,6 +20,12 @@
     --black: #000000;
     --gradient-1: linear-gradient(135deg, #f3140c 0%, #ff4d47 100%);
     --gradient-2: linear-gradient(135deg, #26262c 0%, #3a3a42 100%);
+    --gradient-blue: linear-gradient(135deg, #1e90ff 0%, #42a5f5 100%);
+
+    /* Social Media Colors */
+    --instagram-gradient: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    --whatsapp-color: #25d366;
+    --linkedin-color: #0077b5;
 
     /* Typography */
     --font-heading: 'Heebo', sans-serif;
@@ -1343,3 +1352,61 @@ section {
 .mb-2 { margin-bottom: var(--spacing-sm); }
 .mb-3 { margin-bottom: var(--spacing-md); }
 .mb-4 { margin-bottom: var(--spacing-lg); }
+
+/* ========== Social Media Custom Colors ========== */
+.social-instagram:hover {
+    background: var(--instagram-gradient) !important;
+    color: var(--white);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.social-whatsapp:hover {
+    background: var(--whatsapp-color) !important;
+    color: var(--white);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.social-linkedin:hover {
+    background: var(--linkedin-color) !important;
+    color: var(--white);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.btn-whatsapp {
+    background: var(--whatsapp-color) !important;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background: #1faa52 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4);
+}
+
+/* Phone link styling */
+a[href^="tel:"] {
+    color: var(--blue-color);
+    transition: all var(--transition-base);
+}
+
+a[href^="tel:"]:hover {
+    color: var(--blue-dark);
+}
+
+/* Blue accents for sections */
+.section-tag {
+    background: rgba(30, 144, 255, 0.1);
+    color: var(--blue-dark);
+}
+
+/* Alternative button style with blue */
+.btn-blue {
+    background: var(--gradient-blue);
+    color: var(--white);
+    box-shadow: 0 4px 16px rgba(30, 144, 255, 0.3);
+}
+
+.btn-blue:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(30, 144, 255, 0.4);
+}
