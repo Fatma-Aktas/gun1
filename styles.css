@@ -142,35 +142,35 @@ section {
 }
 
 .btn-primary {
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     color: var(--white);
-    box-shadow: 0 4px 16px rgba(243, 20, 12, 0.3);
+    box-shadow: 0 4px 16px rgba(30, 144, 255, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(243, 20, 12, 0.4);
+    box-shadow: 0 6px 24px rgba(30, 144, 255, 0.4);
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    color: var(--blue-color);
+    border: 2px solid var(--blue-color);
 }
 
 .btn-secondary:hover {
-    background: var(--primary-color);
+    background: var(--blue-color);
     color: var(--white);
     transform: translateY(-2px);
 }
 
 .btn-light {
     background: var(--white);
-    color: var(--primary-color);
+    color: var(--blue-color);
 }
 
 .btn-light:hover {
-    background: var(--primary-color);
+    background: var(--blue-color);
     color: var(--white);
 }
 
@@ -201,7 +201,7 @@ section {
     font-family: var(--font-heading);
     font-size: 1.75rem;
     font-weight: 800;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -229,7 +229,7 @@ section {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     transition: width var(--transition-base);
 }
 
@@ -240,7 +240,7 @@ section {
 
 .btn-nav {
     padding: 0.75rem 1.5rem;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     color: var(--white);
     border-radius: var(--radius-sm);
 }
@@ -361,7 +361,7 @@ section {
 }
 
 .highlight {
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -395,7 +395,7 @@ section {
     font-family: var(--font-heading);
     font-size: 3rem;
     font-weight: 800;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1139,7 +1139,7 @@ section {
     font-family: var(--font-heading);
     font-size: 1.75rem;
     font-weight: 800;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1205,7 +1205,7 @@ section {
     right: 30px;
     width: 50px;
     height: 50px;
-    background: var(--gradient-1);
+    background: var(--gradient-blue);
     color: var(--white);
     border: none;
     border-radius: 50%;
