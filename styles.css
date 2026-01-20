@@ -9,9 +9,9 @@
     --primary-color: #f3140c;
     --primary-dark: #c10e08;
     --primary-light: #ff4d47;
-    --blue-color: #1e90ff;
-    --blue-dark: #1565c0;
-    --blue-light: #42a5f5;
+    --blue-color: #0078d4;
+    --blue-dark: #005a9e;
+    --blue-light: #2b88d8;
     --secondary-color: #26262c;
     --accent-color: #f4f4f5;
     --text-dark: #26262c;
@@ -20,7 +20,7 @@
     --black: #000000;
     --gradient-1: linear-gradient(135deg, #f3140c 0%, #ff4d47 100%);
     --gradient-2: linear-gradient(135deg, #26262c 0%, #3a3a42 100%);
-    --gradient-blue: linear-gradient(135deg, #1e90ff 0%, #42a5f5 100%);
+    --gradient-blue: linear-gradient(135deg, #005a9e 0%, #0078d4 100%);
 
     /* Social Media Colors */
     --instagram-gradient: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
@@ -144,12 +144,12 @@ section {
 .btn-primary {
     background: var(--gradient-blue);
     color: var(--white);
-    box-shadow: 0 4px 16px rgba(30, 144, 255, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 120, 212, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(30, 144, 255, 0.4);
+    box-shadow: 0 6px 24px rgba(0, 120, 212, 0.45);
 }
 
 .btn-secondary {
@@ -1395,7 +1395,7 @@ a[href^="tel:"]:hover {
 
 /* Blue accents for sections */
 .section-tag {
-    background: rgba(30, 144, 255, 0.1);
+    background: rgba(0, 120, 212, 0.12);
     color: var(--blue-dark);
 }
 
@@ -1403,10 +1403,10 @@ a[href^="tel:"]:hover {
 .btn-blue {
     background: var(--gradient-blue);
     color: var(--white);
-    box-shadow: 0 4px 16px rgba(30, 144, 255, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 120, 212, 0.35);
 }
 
 .btn-blue:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(30, 144, 255, 0.4);
+    box-shadow: 0 6px 24px rgba(0, 120, 212, 0.45);
 }
