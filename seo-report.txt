@@ -1,0 +1,46 @@
+
+SEO ANALİZ RAPORU
+═══════════════════════════════════════════════════════
+Tarih: 23.01.2026 08:33:39
+Site: Fatma Aktaş Portfolio
+URL: https://fatma-aktas.github.io/gun1/
+═══════════════════════════════════════════════════════
+
+SKOR: 80/100
+
+BAŞLIK TAGLERİ:
+- Sayfa Başlığı: Fatma Aktaş - Dijital Pazarlama Uzmanı | WordPress, SEO, Video Prodüksiyon (74 karakter)
+- Meta Açıklama: Fatma Aktaş - WordPress, SEO, Google Ads, Video Prodüksiyon, Sosyal Medya Yönetimi ve Meta Reklam Yönetimi hizmetleri. Dijital Zirve Biletiniz! (143 karakter)
+
+BAŞLIK HİYERARŞİSİ:
+- H1: 1
+- H2: 5
+- H3: 16
+- H4: 15
+
+GÖRSEL ANALİZİ:
+- Toplam Görsel: 11
+- Alt Tag ile: 11
+- Alt Tag eksik: 0
+
+LINK ANALİZİ:
+- Toplam Link: 32
+- İç Linkler: 20
+- Dış Linkler: 8
+
+GÜÇLÜ YÖNLER:
+- Meta açıklama uzunluğu ideal aralıkta
+- Tek H1 başlığı kullanılmış (SEO best practice)
+- Open Graph tagları mevcut
+- HTML lang attribute tanımlanmış
+- Viewport meta tag mevcut (mobil uyumlu)
+- Tüm görsellerde alt tag var
+- Preconnect kullanılmış (performans optimizasyonu)
+
+İYİLEŞTİRME ÖNERİLERİ:
+- Başlık çok uzun (60+ karakter) - Google'da kesilerek görünebilir
+- Open Graph image eksik (sosyal medya paylaşımları için önemli)
+- Canonical URL eksik
+- Structured Data (JSON-LD) eksik (zengin snippet'ler için önemli)
+
+
